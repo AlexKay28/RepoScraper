@@ -1,5 +1,6 @@
 import os
-from sklearn.impute import kkkk
+import re
+from sklearn.metrics import accuracy_score
 
 
 def get_repo_packages():
@@ -35,8 +36,13 @@ def get_repo_packages():
         except AttributeError as e:
             pass
 
+    # write the modules down to file
     with open("repo_modules.txt", "w") as f:
         for case in imports_and_versions:
             f.write(case + "\n")
 
     return 0
+
+
+if __name__ == "__main__":
+    get_repo_packages()
