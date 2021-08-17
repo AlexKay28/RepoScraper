@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+RepoScraper.egg-info/PKG-INFO
+RepoScraper.egg-info/SOURCES.txt
+RepoScraper.egg-info/dependency_links.txt
+RepoScraper.egg-info/top_level.txt
